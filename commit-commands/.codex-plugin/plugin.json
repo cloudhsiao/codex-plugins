@@ -1,0 +1,24 @@
+{
+  "name": "commit-commands",
+  "version": "0.1.0+codex.20260604014306",
+  "description": "Git workflow commands for committing, pushing, opening pull requests, and cleaning stale branches.",
+  "author": {
+    "name": "Local developer"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Commit Commands",
+    "shortDescription": "Commit, push, open PRs, and clean stale git branches.",
+    "longDescription": "Commit Commands provides Codex commands converted from the Claude commit-commands plugin: commit changes, commit and open a pull request, and clean local branches whose remotes are gone.",
+    "developerName": "Local developer",
+    "category": "Productivity",
+    "capabilities": [
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Create a git commit for my current changes.",
+      "Commit, push, and open a pull request.",
+      "Clean local branches whose remote branches are gone."
+    ]
+  }
+}

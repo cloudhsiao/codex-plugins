@@ -13,6 +13,7 @@ The marketplace manifest is stored at:
 | Plugin | Purpose |
 | --- | --- |
 | `commit-commands` | Git workflow skills for commit, PR, and stale branch cleanup tasks. |
+| `code-simplifier` | Simplifies recently modified code for clarity and maintainability while preserving behavior. |
 
 ## Update Workflow
 
@@ -21,6 +22,7 @@ Install this marketplace from GitHub:
 ```bash
 codex plugin marketplace add cloudhsiao/codex-plugins --ref main
 codex plugin add commit-commands@codex-plugins
+codex plugin add code-simplifier@codex-plugins
 ```
 
 After editing a plugin source folder and pushing the change:

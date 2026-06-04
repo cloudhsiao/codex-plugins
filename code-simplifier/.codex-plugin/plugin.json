@@ -1,0 +1,34 @@
+{
+  "name": "code-simplifier",
+  "version": "1.0.0+codex.20260604022648",
+  "description": "Simplifies and refines code for clarity, consistency, and maintainability while preserving functionality.",
+  "author": {
+    "name": "cloudhsiao",
+    "url": "https://github.com/cloudhsiao"
+  },
+  "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/code-simplifier",
+  "repository": "https://github.com/cloudhsiao/codex-plugins",
+  "license": "Apache-2.0",
+  "keywords": [
+    "code-simplifier",
+    "refactoring",
+    "maintainability",
+    "clarity"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Code Simplifier",
+    "shortDescription": "Simplify recently modified code without changing behavior.",
+    "longDescription": "Code Simplifier ports Anthropic's Claude Code code-simplifier agent into a Codex skill. It focuses on recently modified or explicitly selected code, reduces accidental complexity, follows project standards, and preserves existing behavior.",
+    "developerName": "cloudhsiao",
+    "category": "Productivity",
+    "capabilities": [
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Simplify my recent code changes.",
+      "Refine this code without changing behavior.",
+      "Clean up the touched code for maintainability."
+    ]
+  }
+}

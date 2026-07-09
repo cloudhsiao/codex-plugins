@@ -1,0 +1,4 @@
+interface:
+  display_name: "Grill Me"
+  short_description: "Relentless one-question plan interviews."
+  default_prompt: "Use $grill-me to interview me about this plan one decision at a time."

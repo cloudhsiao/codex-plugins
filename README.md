@@ -14,6 +14,7 @@ The marketplace manifest is stored at:
 | --- | --- |
 | `commit-commands` | Git workflow skills for commit, PR, and stale branch cleanup tasks. |
 | `code-simplifier` | Simplifies recently modified code for clarity and maintainability while preserving behavior. |
+| `grill-me` | Interviews plans and implementation strategies one decision at a time before execution. |
 
 ## Update Workflow
 
@@ -23,6 +24,7 @@ Install this marketplace from GitHub:
 codex plugin marketplace add cloudhsiao/codex-plugins --ref main
 codex plugin add commit-commands@codex-plugins
 codex plugin add code-simplifier@codex-plugins
+codex plugin add grill-me@codex-plugins
 ```
 
 After editing a plugin source folder and pushing the change:

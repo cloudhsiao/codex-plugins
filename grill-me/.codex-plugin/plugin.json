@@ -1,0 +1,32 @@
+{
+  "name": "grill-me",
+  "version": "0.1.0",
+  "description": "One-question-at-a-time plan and design interview skill for reaching shared understanding before implementation.",
+  "author": {
+    "name": "cloudhsiao",
+    "url": "https://github.com/cloudhsiao"
+  },
+  "repository": "https://github.com/cloudhsiao/codex-plugins",
+  "keywords": [
+    "planning",
+    "design-review",
+    "decision-making",
+    "implementation-strategy"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Grill Me",
+    "shortDescription": "Interview plans one decision at a time.",
+    "longDescription": "Grill Me helps Codex pressure-test plans, designs, and implementation strategies through a strict one-question-at-a-time interview. It explores available facts, recommends an answer for each decision, records concise decisions, and stops at shared understanding before implementation.",
+    "developerName": "cloudhsiao",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive"
+    ],
+    "defaultPrompt": [
+      "Interview me relentlessly about this plan.",
+      "Grill my implementation strategy one decision at a time.",
+      "Help me reach shared understanding before coding."
+    ]
+  }
+}

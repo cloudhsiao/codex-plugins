@@ -49,6 +49,13 @@ If the current branch is a gone candidate:
    The default choice must be `不動作`.
 4. If the user chooses `不動作`, stop the entire run. Do not clean other branches or worktrees.
 5. If the user chooses `切換到 main 並清理`, run `git switch main`. If switching fails, report the error and stop. Only after the switch succeeds may the remaining candidates be processed.
+6. After switching to `main`, run:
+
+   ```bash
+   git merge --ff-only origin/main
+   ```
+
+   If the fast-forward fails, report the error and stop all cleanup. Do not use a stale local `main` as the deletion baseline, and do not create a merge commit automatically. Only after the fast-forward succeeds may the remaining candidates be processed.
 
 ## Worktree and branch cleanup
 
@@ -75,5 +82,5 @@ Include:
 - skipped dirty worktree-bound branches
 - failed worktree removals
 - failed safe branch deletions
-- fetch/prune or branch-switch failures
+- fetch/prune, branch-switch, or `main` fast-forward failures
 - no cleanup needed when no branch or worktree was removed

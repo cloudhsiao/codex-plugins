@@ -1,6 +1,6 @@
 {
   "name": "commit-commands",
-  "version": "0.1.0+codex.20260714115503",
+  "version": "0.1.0+codex.20260714122050",
   "description": "Git workflow commands for committing, pushing, opening pull requests, and cleaning stale branches.",
   "author": {
     "name": "Local developer"
